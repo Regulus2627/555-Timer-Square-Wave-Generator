@@ -8,9 +8,7 @@ Objectives
 - **Duty Cycle:** ~65%  
 - **Tools Used:** LTspice + EasyEDA PCB  
 
----
-
-## ⚙️ Circuit Details
+## Circuit Details
 
 The 555 timer operates in **Astable Mode**, continuously switching between HIGH and LOW.
 
@@ -21,9 +19,7 @@ The 555 timer operates in **Astable Mode**, continuously switching between HIGH 
 - C1 = 0.01 µF (Bypass)  
 - Vcc = 5V  
 
----
-
-## 📊 Results
+## Results
 
 | Parameter   | Theoretical | Simulation | Hardware |
 |------------|------------|------------|----------|
@@ -32,28 +28,18 @@ The 555 timer operates in **Astable Mode**, continuously switching between HIGH 
 
 **Note:** Hardware variation is due to component tolerances and PCB effects.
 
----
-
-## 📂 Project Structure
+##  Project Structure
 /docs → Report
 /simulation → LTspice files
 /pcb → PCB design (EasyEDA)
 /images → Output waveforms & PCB photos
 
-
----
-
-## 🚀 Simulation Steps
-
+##  Simulation Steps
 1. Open `.asc` file in LTspice  
 2. Run: .tran 0 10m
-
 3. View output waveform  
 
----
-
-## 👥 Team
-
+##  Team
 - Nimisha Thoppil  
 - Sagarika Pramod  
 - Aishwarya Vaidya  
@@ -62,9 +48,7 @@ The 555 timer operates in **Astable Mode**, continuously switching between HIGH 
 **Guide:** Prof. Swati Patil  
 Pillai College of Engineering  
 
----
-
-## 📌 Applications
+## Applications
 
 - Clock signals  
 - PWM generation  
