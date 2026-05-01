@@ -29,10 +29,10 @@ The 555 timer operates in **Astable Mode**, continuously switching between HIGH 
 **Note:** Hardware variation is due to component tolerances and PCB effects.
 
 ##  Project Structure
--/docs → Report
--/simulation → LTspice files
--/pcb → PCB design (EasyEDA)
--/images → Output waveforms & PCB photos
+- /docs → Report
+- /simulation → LTspice files
+- /pcb → PCB design (EasyEDA)
+- /images → Output waveforms & PCB photos
 
 ##  Simulation Steps
 1. Open `.asc` file in LTspice  
